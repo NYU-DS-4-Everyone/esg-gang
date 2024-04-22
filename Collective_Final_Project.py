@@ -14,6 +14,7 @@ st.sidebar.markdown("---")
 app_mode = st.sidebar.selectbox('Select Page',['Introduction','Visualization','Prediction'])
 
 df = pd.read_csv("transactions_dataset.csv")
+tech_df = df.loc[df['sector'] == 'TECH']
 
 
 
@@ -75,7 +76,7 @@ if app_mode == "Introduction":
 
 elif app_mode == "Visualization":
   st.title("Visualization")
-  tech_df = df.loc[df['sector'] == 'TECH']
+  
 
 
 
