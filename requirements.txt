@@ -1,9 +1,7 @@
-streamlit
+streamlit==1.33.0
 pandas
 numpy
 seaborn
-PLT
-matplotlib.pyplot
-sklearn.model_selection
-sklearn.linear_model
-sklearn
+Pillow
+matplotlib
+scikit-learn
