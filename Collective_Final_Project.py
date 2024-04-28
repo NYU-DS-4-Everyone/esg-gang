@@ -25,12 +25,12 @@ if app_mode == "Introduction":
 
   #st.image("veh.jpeg", use_column_width=True)
 
-  st.markdown("#### Wondering what is ESG rankings relative to Investments")
-  st.markdown("Our company is a Health insurance company who is looking to improve their revenue model by expanding into a new sector: Vehicle Insurance.")
+  st.markdown("#### Wondering how ESG rankings truly effect company investment & returns?")
+  st.markdown("Our goal is explore investments relative to ESG Rankings & finding/creating a positive feedback loop ")
   st.markdown("##### Objectives")
   st.markdown("- Using other variables that contribute to investment over the years")
   st.markdown("- Points that can be made: ESG growth over the years; correlation w Investment & social pressures")
-  st.markdown("- Does an increase ESG lead to increase in Investment? ")
+  st.markdown("- Does ESG ranking positivley or negatively effect investments? ")
 
   num = st.number_input('No. of Rows', 5, 10)
 
