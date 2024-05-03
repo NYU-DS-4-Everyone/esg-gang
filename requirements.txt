@@ -5,3 +5,7 @@ seaborn
 Pillow
 matplotlib
 scikit-learn
+graphviz
+mlflow
+missingno
+shapash==2.4.3
